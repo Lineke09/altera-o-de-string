@@ -1,0 +1,25 @@
+printf('Digite o nome 1:');
+gets(nome1);
+
+setbuf(stdin,NULL);
+
+printf('Digite o nome 2:');
+gets(nome2);
+
+if(strcase(nome1,nome2)==0){
+    printf('\nznnomes iguais')
+}
+else {
+    printf('\n\nnomes diferentes!\n\n')
+}
+
+
+printf('Digite o nome 1:');
+gets(nome1);
+
+strcpy(nome2,nome1);
+
+printf("Vetor 2: string", nome2);
+
+
+printf('nome tem %d letras', strlen(nome1));
